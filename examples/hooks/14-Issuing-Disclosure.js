@@ -1,6 +1,6 @@
 import React from 'react';
 import {loadStripe} from '@stripe/stripe-js';
-import IssuingDisclosure from '../../src/components/IssuingDisclosure';
+import {IssuingDisclosure} from '../../src/components/IssuingDisclosure';
 
 import '../styles/common.css';
 

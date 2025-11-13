@@ -1,6 +1,6 @@
 import React from 'react';
 import {loadStripe} from '@stripe/stripe-js';
-import FinancialAccountDisclosure from '../../src/components/FinancialAccountDisclosure';
+import {FinancialAccountDisclosure} from '../../src/components/FinancialAccountDisclosure';
 
 import '../styles/common.css';
 
@@ -23,7 +23,7 @@ const App = () => {
         onError={onError}
         options={{
           businessName: 'Your Business Name',
-          learnMoreLink: 'https://docs.stripe.com/treasury',
+          learnMoreLink: 'https://docs.stripe.com/financial-accounts/connect',
         }}
       />
     </>
